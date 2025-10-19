@@ -1,0 +1,8 @@
+Package: opsec
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: playfairs <root@playfairs.cc>
+Description: OPSEC helper (totally real)
+ A tiny package which mocks you for trying to install OPSEC

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+MESSAGES=(
+  "Nice try. Installing 'opsec' won't make you a hacker."
+  "Pro tip: real OPSEC doesn't come from apt. Try reading a book."
+  "I love inside jokes, you probably didn't even know this was a package."
+  "Well done. You installed 'opsec'. Now go outside."
+  "This package does nothing useful. Except mock you. You're welcome."
+)
+idx=$((RANDOM % ${#MESSAGES[@]}))
+echo "${MESSAGES[$idx]}"
+exit 0

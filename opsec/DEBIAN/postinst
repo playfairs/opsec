@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+echo "opsec installed. That was suspiciously easy — are you sure about your security practices?"
+exit 0
